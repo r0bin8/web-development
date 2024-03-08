@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>selectors 6</title>
+    <style type="text/css">
+        h1{
+            font-size: 32pt;
+            color:blue;
+        }
+        p.one{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25pt;
+            color: yellow;
+            }
+        .two{
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            font-size: 24pt;
+            font-variant: small-caps;
+           background-image: url(p7.jpeg);
+           background-repeat: no-repeat;
+           background-size: auto;
+            }
+        p.three{
+            font-family:'Monotype corsiva';
+            font-size: 24pt;
+            font-variant:small-caps;
+            color:blueviolet ;
+        }
+        #new{
+            color: blue;
+            font-size: 24pt;
+            }
+            input:hover{color:red;}
+            input:focus{color:greenyellow;}
+        body{
+            background-image:url("https://i.pinimg.com/originals/ea/80/e8/ea80e8bcf70c0a180cdc6905afb3f1c1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        *{
+            font-style: italic;
+            font-weight:border;
+        }
+    </style>
+</head>
+<body>
+        <center>
+        <h1>college of engineering</h1>
+        <p class="one">welcome to gitam</p>
+        <p class="two">computer science engineering </p>
+        <h2 class="two">3rd year</h2>
+        <p class="three"> student portal </p>
+        <p id="new">information</p>
+        <form action="">
+            <label >Username <input type="text" name="username" ></label><br><br>
+            <label >Password <input type="text" name="password" ></label><br><br>
+            <input type="submit" name="submit" value="submit"> <br> <br>
+            <input type="reset" name="reset" value="reset"><br><br>
+        </form>
+        <div style="background-color:pink;">
+            upload<span style="color: red;"> more </span> details
+        </div>
+    </center>
+</body>
+</html>

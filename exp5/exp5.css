@@ -1,0 +1,18 @@
+books{
+    color:peachpuff;
+    background-color: violet;
+    width: 100%;
+}
+heading{
+    color: green;
+    font-size: 40px;
+    background-color: greenyellow;
+}
+heading,title,author,publisher,edtion,price,semester,department{
+    display: block;
+}
+
+title{
+    font-size: 25px;
+    font-weight: bold;
+}

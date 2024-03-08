@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function moveit(movee, newtop,newleft){
+                dom=document.getElementById(movee).style;
+                dom.top= newtop+"px";
+                dom.left=newleft +"px";
+            }
+        </script>
+
+    </head>
+    <body>
+        <form action="">
+            <p>
+                <label for="">
+                    x-coordinate: 
+                    <input type="text" id="leftcoord" size="3" />
+                </label>
+                <br>
+                <label for="">
+                    y-coordinate: 
+                    <input type="text" id="topcoord" size="3">
+                </label>
+                <br>
+                <input type="button" value="Move it" onclick="moveit('saturn',document.getElementById('topcoord').value,document.getElementById('leftcoord').value)">
+            </p>
+        </form>
+        <div id="saturn" style="position:absolute; top:115px; left:20px;"> <img src="https://tse1.mm.bing.net/th?id=OIP.0gb8a1wWDrR3DZiUXGFL-AHaFj&pid=Api&P=0&h=180" alt="no img" height="300" width="200"> 
+        </div>
+    </body>
+</html>
